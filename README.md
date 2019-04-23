@@ -10,7 +10,7 @@ ecv.global.backgroundColor = 'blue';
 
 ```css
 .greet {
-  backgroundColor: var(--backgroundColor);
+  background: var(--backgroundColor);
 }
 ```
 
@@ -31,7 +31,7 @@ _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a sin
 
 ```css
 #greeter {
-  backgroundColor: var(--backgroundColor);
+  background: var(--backgroundColor);
 }
 ```
 
