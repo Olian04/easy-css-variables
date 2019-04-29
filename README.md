@@ -24,7 +24,10 @@ ecv.global.backgroundColor = 'blue';
 ```js
 const ecv = require('easy-css-variables');
 
+const seGreet = document.querySelector('.greet.se');
+
 ecv('#greeter').backgroundColor = 'blue';
+ecv(seGreet).backgroundColor = 'pink';
 ```
 
 _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a single element._
@@ -37,6 +40,7 @@ _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a sin
 
 ```html
 <div id="greet">Hello!</div>
+<div class="greet se">Hej!</div>
 ```
 
 ---
