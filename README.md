@@ -39,7 +39,7 @@ _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a sin
 ```
 
 ```html
-<div id="greet">Hello!</div>
+<div id="greeter">Hello!</div>
 <div class="greet se">Hej!</div>
 ```
 
