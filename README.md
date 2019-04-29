@@ -26,20 +26,20 @@ const ecv = require('easy-css-variables');
 
 const seGreet = document.querySelector('.greet.se');
 
-ecv('#greeter').backgroundColor = 'blue';
+ecv('.greeter.en').backgroundColor = 'blue';
 ecv(seGreet).backgroundColor = 'pink';
 ```
 
 _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a single element._
 
 ```css
-#greeter {
+.greet {
   background: var(--backgroundColor);
 }
 ```
 
 ```html
-<div id="greeter">Hello!</div>
+<div class="greet en">Hello!</div>
 <div class="greet se">Hej!</div>
 ```
 
