@@ -30,7 +30,7 @@ ecv('.greeter.en').backgroundColor = 'blue';
 ecv(seGreet).backgroundColor = 'pink';
 ```
 
-_Note: The selector passed to `ecv(selectorOrElement)` needs to only match a single element._
+_Note: The selector passed to `ecv(selectorOrElement)` needs to only match a single element, or the first one will be selected._
 
 ```css
 .greet {
