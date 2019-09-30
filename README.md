@@ -1,5 +1,11 @@
 # easy-css-variables
 
+__CDN:__ <br>
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/olian04/easy-css-variables/src/index.js"></script>
+```
+
 ## Global
 
 ```js
