@@ -5,7 +5,7 @@
 ```js
 const ecv = require('easy-css-variables');
 
-ecv.global.backgroundColor = 'blue';
+ecv.backgroundColor = 'blue';
 ```
 
 ```css
