@@ -6,6 +6,10 @@ __CDN:__ <br>
 <script src="https://cdn.jsdelivr.net/gh/olian04/easy-css-variables/src/index.js"></script>
 ```
 
+__Demo:__ <br>
+
+https://jsfiddle.net/olian04/rxLfmgeq/41/
+
 ## Global
 
 ```js
@@ -48,7 +52,3 @@ _Note: The selector passed to `ecv(selectorOrElement)` needs to only match a sin
 <div class="greet en">Hello!</div>
 <div class="greet se">Hej!</div>
 ```
-
----
-
-WIP: https://jsfiddle.net/olian04/rxLfmgeq/35/
