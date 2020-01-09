@@ -13,8 +13,6 @@ https://jsfiddle.net/olian04/rxLfmgeq/41/
 ## Global
 
 ```js
-const ecv = require('easy-css-variables');
-
 ecv.backgroundColor = 'blue';
 ```
 
@@ -32,8 +30,6 @@ ecv.backgroundColor = 'blue';
 ## Target element
 
 ```js
-const ecv = require('easy-css-variables');
-
 const seGreet = document.querySelector('.greet.se');
 
 ecv('.greeter.en').backgroundColor = 'blue';
