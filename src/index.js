@@ -1,12 +1,12 @@
 const proxyVariablesWithCache = (target) => new Proxy({}, {
   get(_, key) {
-  	//console.log('get', key, target);
   	return `var(--${key})`;
   },
   set(_, key, value) {
-  	//console.log('set', key, value, target);
     target.style
       .setProperty(`--${key}`, value);
+    
+    return true;
   }
 });
 
@@ -51,6 +51,8 @@ const ecv = (selectorCache => new Proxy(selectorOrElement => {
       	__.global = proxyVariablesWithCache(document.documentElement);
       }
       __.global[key] = value;
+      
+      return true;
     }
   }))({});
   
